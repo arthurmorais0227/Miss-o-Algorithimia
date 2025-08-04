@@ -152,7 +152,10 @@ console.log(`⚔️ Arma: ${NOME_ARMA}`);
 console.log(`💥 Dano Final: ${ataqueTotal}`);
 console.log(`✨ Raridade: ${RARIDADE}`);
 console.log(`💀 Elemento: ${ELEMENTO}`);
-
+console.log("                       ");
+console.log("-----------------------");
+console.log("                       ");
+console.log("-----------------------");
 // Atributos do nível 1 mais alguns atributos novos
 
 let vidaMaxima = 100;
@@ -177,6 +180,9 @@ console.log(
   `Ao fim da batalha entre Oberon e ${nome}, o personagem principal da história conseguiu recuperar seu ${localAtual} e sua nova missão é reformá-lo e protege-lo de novas ameaças.`
 );
 console.log("                       ");
+console.log(
+  `Infelizmente, a escrivã do ${localAtual} não conseguiu sobreviver... A partir desse ponto a história não seguirá mais com letras enfeitadas`
+);
 console.log("                       ");
 
 //Capítulo 1
@@ -289,3 +295,21 @@ if (danoFinal >= vidaTounis) {
   let danoFinal = 0;
   let protecaoArmadura = 0;
 }
+console.log("                       ");
+
+// Capítulo 3
+console.log("Capítulo 3");
+console.log("                       ");
+
+console.log(`Agora, ${nome} deseja fazer uma reforma gigantesca no ${localAtual}, instalando muralhas e deixando as redondezas mais seguras!`);
+console.log(`Para isso, ${nome} precisa tomar algumas decisões de upgrades do reino baseadas nos seus atributos!`);
+
+let muralhas = 3000;
+let guardasRedondezas = 4000;
+if (nivel > 10 && ouro > (muralhas + guardasRedondezas)) {
+    console.log("Todas as reformas foram feitas com sucesso e o reino está mais protegido!");
+    ouro -= muralhas + guardasRedondezas;
+} else if (nivel <= 10 && ouro > (muralhas + guardasRedondezas)) {
+    console.log()
+}
+
