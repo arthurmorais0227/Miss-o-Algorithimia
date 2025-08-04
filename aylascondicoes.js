@@ -26,7 +26,7 @@ if (vida >= 50 && energia >= 50) {
 // PArte 3 - Sobre de nível
 
 if (xp >= 1000) {
-    nivel++
+    nivel++;
     console.log("Ayla subiu de nível.");
 } else {
     console.log("Aaquirra mais xp apra subir de nível");
@@ -37,5 +37,5 @@ if (xp >= 1000) {
 if (ouro >= 300) {
     console.log("Ayla comprou a armadura mágica.");
 } else {
-    console.log("Ayla não tem ouro suficiente.")
+    console.log("Ayla não tem ouro suficiente.");
 }
