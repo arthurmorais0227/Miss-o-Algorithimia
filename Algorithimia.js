@@ -112,8 +112,7 @@ console.log(
   `𝓐𝓭𝓮𝓷𝓽𝓻𝓪𝓷𝓭𝓸 𝓶𝓪𝓲𝓼 𝓪𝓼 𝓷𝓸𝓿𝓪𝓼 𝓽𝓮𝓻𝓻𝓪𝓼 𝓼𝓸𝓶𝓫𝓻𝓲𝓪𝓼 𝓭𝓮 𝓼𝓮𝓾 𝓻𝓮𝓲𝓷𝓸 𝓹𝓮𝓻𝓭𝓲𝓭𝓸, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓮𝓷𝓬𝓸𝓷𝓽𝓻𝓪 𝓶𝓪𝓲𝓼 𝓭𝓮 15 𝓫𝓻𝓾𝔁𝓪𝓼 𝓺𝓾𝓮 𝓲𝓻𝓲𝓪𝓶 𝓯𝓪𝔃𝓮𝓻 𝓭𝓮 𝓽𝓾𝓭𝓸 𝓹𝓪𝓻𝓪 𝓹𝓪𝓻á-𝓵𝓸.`
 );
 console.log(
-  `𝓟𝓪𝓻𝓪 𝓭𝓮𝓻𝓻𝓸𝓽á-𝓵𝓪𝓼, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓾𝓽𝓲𝓵𝓲𝔃𝓪 𝓪 𝓱𝓪𝓫𝓲𝓵𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓼𝓾𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝓮 𝓻𝓮𝓬𝓾𝓹𝓮𝓻𝓪 𝓼𝓾𝓪 𝓿𝓲𝓭𝓪, 𝓰𝓪𝓷𝓱𝓪𝓷𝓭𝓸 𝓾𝓶 𝓫𝓸𝓸𝓼𝓽 𝓭𝓮 𝓮𝓷𝓮𝓻𝓰𝓲𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 ${
-    (vidaGuardiao * quantidadeGuardioes * 0, 35) + vidaAtual
+  `𝓟𝓪𝓻𝓪 𝓭𝓮𝓻𝓻𝓸𝓽á-𝓵𝓪𝓼, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓾𝓽𝓲𝓵𝓲𝔃𝓪 𝓪 𝓱𝓪𝓫𝓲𝓵𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓼𝓾𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝓮 𝓻𝓮𝓬𝓾𝓹𝓮𝓻𝓪 𝓼𝓾𝓪 𝓿𝓲𝓭𝓪, 𝓰𝓪𝓷𝓱𝓪𝓷𝓭𝓸 𝓾𝓶 𝓫𝓸𝓸𝓼𝓽 𝓭𝓮 𝓮𝓷𝓮𝓻𝓰𝓲𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 ${(vidaGuardiao * quantidadeGuardioes * 0, 35) + vidaAtual
   } 𝓹𝓸𝓷𝓽𝓸𝓼 𝓭𝓮 𝓿𝓲𝓭𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝔃𝓮𝓻𝓪𝓭𝓪. 𝓣𝓸𝓭𝓪𝓼 𝓯𝓸𝓻𝓪𝓶 𝓶𝓸𝓻𝓽𝓪𝓼 𝓹𝓸𝓻 ${Math.ceil(
     (vidaGuardiao * quantidadeBruxas) / ataqueTotal
   )} 𝓰𝓸𝓵𝓹𝓮𝓼.`
@@ -196,6 +195,7 @@ console.log(
 );
 console.log("                       ");
 
+// Caso o personagem tenha ouro maior ou igual ao preço para realizar a reforma no reino, ele poderá realizá-la, perdendo 6000 de ouro e ganhando 50 de xp.
 if (ouro >= reformaCasas) {
   console.log(
     `${nome} conseguiu comprar novas casas para seus habitantes no reino. Ganhando mais 50 de xp e alegrando seu reino.`
@@ -211,6 +211,7 @@ let madeirasExportadas = 300;
 let demandaMadeira = 275;
 let recompensa = 5000;
 
+// Caso o Reino consiga exportar a quantidade de madeira suficiente para suprir a demanda de reinos vizinhos, ganhará 5000 de ouro.
 console.log(
   ` 2- O ${localAtual} é um grande exportador de madeira para outros reinos. Se conseguirem suprir a demanda de madeira, ganham ${recompensa} moedas de ouro.`
 );
@@ -232,6 +233,7 @@ console.log(
 );
 console.log("                       ");
 
+// Caso o personagem alcance 400 de xp, subirá um nível, e por consequência, irá zerar seu XP.
 if (xp >= xpNecessario) {
   nivel++;
   xp *= 0;
@@ -257,6 +259,7 @@ console.log(
 );
 console.log("                       ");
 
+// Caso o dinheiro do personagem seja suficiente para reparar seu escudo, ganha 80 pontos de proteção em sua armadura. Se não, o reino inimigo conseguirá atacar o Reino dos Elfos Arqueiros com muitas facilidade.
 if (ouro >= custoReparacao) {
   console.log(
     `${nome} conseguiu melhorar sua armadura e conseguirá defender seu reino com excelência!`
@@ -278,22 +281,15 @@ console.log(
 );
 console.log("                       ");
 
+// Caso o dano do personagem seja maior do que a vida de Tounis, ele ganha a batalha. Se não, seu reino irá perder a batalha e personagem será expulso de seu reino.
 if (danoFinal >= vidaTounis) {
   console.log(
     `${nome} conseguiu matar ${nomeLiderinimigo} com um golpe e proteger o ${localAtual} do reino ${reinoInimigo}!!`
   );
 } else {
   console.log(
-    `GAME OVER - ${nome} não conseguiu defender o ${localAtual} de ${nomeLiderinimigo} e seu reino ${reinoInimigo}.`
+    `${nome} não conseguiu defender o ${localAtual} de ${nomeLiderinimigo} e seu reino ${reinoInimigo} e foi expulso de seu reino.`
   );
-
-  let nivel = 0;
-  let vidaAtual = 0;
-  let vidaMaxima = 0;
-  let ouro = 0;
-  let xp = 0;
-  let danoFinal = 0;
-  let protecaoArmadura = 0;
 }
 console.log("                       ");
 
@@ -301,15 +297,23 @@ console.log("                       ");
 console.log("Capítulo 3");
 console.log("                       ");
 
-console.log(`Agora, ${nome} deseja fazer uma reforma gigantesca no ${localAtual}, instalando muralhas e deixando as redondezas mais seguras!`);
+console.log(`Agora, ${nome} deseja fazer uma reforma gigantesca no ${localAtual}, instalando muralhas, deixando as redondezas mais seguras!`);
 console.log(`Para isso, ${nome} precisa tomar algumas decisões de upgrades do reino baseadas nos seus atributos!`);
+console.log("                       ");
 
 let muralhas = 3000;
-let guardasRedondezas = 4000;
-if (nivel > 10 && ouro > (muralhas + guardasRedondezas)) {
-    console.log("Todas as reformas foram feitas com sucesso e o reino está mais protegido!");
-    ouro -= muralhas + guardasRedondezas;
-} else if (nivel <= 10 && ouro > (muralhas + guardasRedondezas)) {
-    console.log()
-}
 
+// Caso seu ouro seja maior do que o preço das muralhas e o personagem tiver mais de 10 de nível, poderá comprar as muralhas para proteger o reino. 
+// Se o personagem possuir o ouro necessário, mas não tiver mais de 10 de nível, não poderá instalar novas muralhase precisará treinar mais para subir seu nível.
+// Se o personagem tiver mais de 10 de nível mas não possuir o ouro suficiente, não conseguirá instalar as novas muralhas e precisará exportar mais madeiras para ganhar mais ouro.
+// Se o personagem não tiver nem ouro suficiente e nem nível para instalar as novas muralhas, precisará treinar mais e exportar mais madeira, para respectivamente, subir seu nível e ganhar mais ouro.
+if (nivel > 10 && ouro > muralhas) {
+  console.log("Todas as reformas foram feitas com sucesso e o reino está mais protegido!");
+  ouro -= muralhas;
+} else if (nivel <= 10 && ouro > muralhas) {
+  console.log(`${nome} possui o dinheiro necessário para comprar muralhas, mas não possui o nível necessário! Treine mais!`);
+} else if (nivel > 10 && ouro < muralhas) {
+  console.log(`${nome} possui o nível necessário, mas não tem ouro suficiente!`);
+} else {
+  console.log(`Treine mais e ganhe mais ouro!!`);
+}
