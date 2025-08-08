@@ -339,7 +339,7 @@ if (forca >= 75 && agilidade >= 60 && combatesVencidos >= 2) {
 } else {
   console.log(`${nomeEsposa} recusou o pedido de namoro!`);
 }
-  nomeIrmaoOberon = "Odegorn";
+nomeIrmaoOberon = "Odegorn";
 
 console.log("                       ");
 console.log(`Durante uma noite sombria no ${localAtual}, um Goblin maldoso entrou no reino por de baixo das muralhas...`);
@@ -378,13 +378,18 @@ console.log(`✨ Raridade: ${RARIDADE}`);
 console.log(`💀 Elemento: ${ELEMENTO}`);
 console.log("                       ");
 console.log(`Recapitulando...`);
+console.log("                       ");
+// Capítulo 1
+console.log(`Capítulo 1`);
+console.log("                       ");
+
 console.log(`O filho de ${nome} foi sequestrado! Antes de sair em busca de seu filho, ${nome} checa alguns itens que estava levando para a batalha e escolheu alguns Elfos para acompanhá-lo nessa nova jornada!`);
 console.log("                       ");
 
 // Itens do personagem organizados em arrays
-let inventário = ["Maçã de ouro", " Morango do Amor", " Sorvete de pistache", " Poção Boobie Goods", " Labubu", " Mapa"];
+let inventário = ["Maçã de ouro", " Morango do Amor", " Sorvete de pistache", " Poção Boobie Goods", " Mapa", " Poção Labubu",];
 let aliados = ["Elfo Akurou Nyerd", " Mago Viiktor Kriry", " Soldado Fieulype Diev"];
-let novosInimigos = ["Odegorn", " Guardiões de Odegorn", " Magos possuídos de Odegorn", " Bruxas de Odegorn"];
+let novosInimigos = ["Odegorn", " Soldados de Odegorn", " Magos possuídos de Odegorn", " Bruxas de Odegorn"];
 let rastrosFrodo = [];
 
 // Exibição dos itens iniciais dos arrays
@@ -394,6 +399,72 @@ console.log(`🔰 Esses são os inimigos que o quarteto de ${localAtual} espera 
 console.log(`👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`);
 console.log("                       ");
 
-let novoReinoInimigo = "Reino de Askaaek";
+// Capítulo 2
+console.log(`Capítulo 2`);
+console.log("                       ");
 
-console.log(`Ao saírem do ${localAtual}, começaram sua jornada até o ${novoReinoInimigo}!`);
+let novoReinoInimigo = "Reino de Askaaek";
+let localDesejado = "Castelo dos Arrays";
+
+console.log(`Ao saírem do ${localAtual}, começaram sua jornada até o ${localDesejado} no ${novoReinoInimigo}!`);
+console.log(`Durante 2 dias de caminhada, não acharam nenhuma pista interessante...`);
+console.log(`Entretanto, ao chegarem mais perto do ${novoReinoInimigo}, encontraram algumas pegadas de ${nome}!`);
+
+// Nova atualização nos rastros de Frodo! 
+rastrosFrodo.push(`Pegadas`);
+
+console.log(`👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`);
+console.log("                       ");
+console.log(`Chegando mais perto do ${novoReinoInimigo}, encontraram um grande problema para atravessar uma ponte!`);
+console.log(`Então, decidiram usar o item: ${inventário[5]}.`);
+console.log(`Esse item tem o poder de gerar levitação! Eles jogam a poção no chão perto dos 4 aventureiros e começaram a flutuar! Assim, atravessando a ponte!`);
+xp += 100;
+
+// Remoção do item já utilizado
+inventário.pop(inventário);
+console.log(`🎒 Esses foram os itens restantes no iventário: ${inventário}.`);
+console.log("                       ");
+console.log(`Enfim haviam chegado ao ${novoReinoInimigo}!`);
+
+console.log(`Entretanto, para adentrarem ${localDesejado}, precisariam passar por uma checagem de pessoas!`);
+console.log(`O portão do castelo diz: Apenas 3 pessoas do mesmo reino!`);
+
+console.log(`Então, o último escolhido para a jornada deveria ficar para fora e esperar a volta de seus companheiros.`);
+console.log(`Esse aliado era: ${aliados[aliados.length - 1]}.`);
+aliados.pop(aliados);
+console.log(`👨‍👨‍👦‍👦 Aliados restantes: ${aliados}.`);
+console.log("                       ");
+// Capitulo 3
+console.log(`Capítulo 3`);
+console.log("                       ");
+
+console.log(`Ao chegarem nas portas do castelo, teriam de enfrentar 10 ${novosInimigos[1]}!`);
+
+let quantidadeSoldados = 10;
+let vidaSoldado = 50;
+let danoViiktor = 50;
+let danoAkurou = 70;
+let somaAtaques = 0;
+let contador = 0;
+let limiteGolpes = 5;
+
+console.log(`${nome}, ${aliados} foram para a batalha! Cada soldado Possuía ${vidaSoldado} de vida. ${aliados[0]} dá ${danoAkurou} de dano e ${aliados[1]} dá ${danoViiktor} de dano!`);
+console.log(`Mas para isso, poderiam dar no máximo ${limiteGolpes} golpes.`);
+console.log("                       ");
+
+// Loop que vê quantos golpes os personagens precisam dar juntos para vencer os soldados! Se for maior que 5 golpes, perderam a batalha!
+for (let i = (danoAkurou + danoViiktor + danoFinal); i < (quantidadeSoldados * vidaSoldado); i += 70) {
+  somaAtaques = somaAtaques + i;
+  contador++;
+}
+
+if (contador <= 5) {
+  console.log(`${nome}, ${aliados} conseguiram derrotar os ${novosInimigos[1]}!`);
+  console.log(`Precisaram dar ${contador} ataques juntos para conquistar a vitória!`);
+  combatesVencidos++;
+} else {
+  console.log(`${nome}, ${aliados} NÃO conseguiram derrotar os ${novosInimigos[1]}!`);
+  console.log(`${nome} como líder da missão perde 50 pontos de vida!`);
+  vidaAtual -= 50;
+  console.log(`Vida atual: ${vidaAtual}.`);
+}
