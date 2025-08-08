@@ -317,3 +317,19 @@ if (nivel > 10 && ouro > muralhas) {
 } else {
   console.log(`Treine mais e ganhe mais ouro!!`);
 }
+console.log("                       ");
+
+nomeIrmaoOberon = "Odegorn";
+
+console.log(`Durante uma noite sombria no ${localAtual}, um Goblin maldoso entrou no reio por de baixo das muralhas...`);
+console.log(`Esse Goblin sorrateiro foi adentrando o ${localAtual} e roubou o filho recém nascido de ${nome}!`);
+console.log(`Ao sair da casa de ${nome}, o Goblin maléfico deixou um bilhete para ${nome}, dizendo:  `);
+console.log(`"EU VIM VINGAR MEU IRMÃO! ME CHAMO ODEGORN, IRMÃO DE OBERON!`);
+console.log(`VENHA ME ENFRENTAR NO REINO PERDIDO DE ASKAAEK!"`);
+console.log(`Ao amanhacer, ${nome}, logo notou falta de algo... Seu único e amado filho!`);
+console.log(`Durante todo o dia, ${nome} proucurou incasavelmente por seu filho no ${localAtual}. Mas não obteve resultados.`);
+console.log(`Foi então que decidiu voltar para onde tudo começou... O quaro de seu filho.`);
+console.log(`Chegando lá, achou o bilhete deixado por ${nomeIrmaoOberon}, pegou seu mapa e decidiu sair em busca de seu filho primogênito.`);
+console.log("                       ");
+console.log("                       ");
+console.log(`Acompanhe a próxima jornada de ${nome} no próximo nível (Avançado!)`);
