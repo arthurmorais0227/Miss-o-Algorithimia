@@ -331,11 +331,13 @@ console.log("                       ");
 console.log(`Estes são os atributos de ${nome}: força = ${forca} / agilidade = ${agilidade} / combates vencidos = ${combatesVencidos}`);
 console.log("                       ");
 
+let nomeFilho = "Frodo Sauron";
+
 // Verificação para saber se Legolas Aragorn possui os atributos necessários para conquistar sua nova donzela!
 if (forca >= 75 && agilidade >= 60 && combatesVencidos >= 2) {
   console.log(`${nome} e ${nomeEsposa} se casaram e tiveram um filho nove meses depois da lua de mel.`);
 } else {
-  console.log(`${nomeEsposa} recusou o pedido de namoro!`)
+  console.log(`${nomeEsposa} recusou o pedido de namoro!`);
 }
   nomeIrmaoOberon = "Odegorn";
 
@@ -347,8 +349,51 @@ console.log(`"EU VIM VINGAR MEU IRMÃO! ME CHAMO ODEGORN, IRMÃO DE OBERON!`);
 console.log(`VENHA ME ENFRENTAR NO REINO PERDIDO DE ASKAAEK!"`);
 console.log(`Ao amanhacer, ${nome}, logo notou falta de algo... Seu único e amado filho!`);
 console.log(`Durante todo o dia, ${nome} proucurou incasavelmente por seu filho no ${localAtual}. Mas não obteve resultados.`);
-console.log(`Foi então que decidiu voltar para onde tudo começou... O quarto de seu filho.`);
+console.log(`Foi então que decidiu voltar para onde tudo começou... O quarto de ${nomeFilho}!`);
 console.log(`Chegando lá, achou o bilhete deixado por ${nomeIrmaoOberon}, pegou seu mapa e decidiu sair em busca de seu filho primogênito.`);
 console.log("                       ");
 console.log("                       ");
 console.log(`Acompanhe a próxima jornada de ${nome} no próximo nível (Avançado!)`);
+
+console.log("                       ");
+console.log("                       ");
+console.log("-----------------------");
+console.log("                       ");
+console.log("                       ");
+
+console.log(`CONTINUAÇÃÃÃÃÃÃÃO DA HISTÓRIA!!!`);
+console.log("                       ");
+console.log("Dados iniciais da parte fina do personagem:");
+console.log("                       ");
+console.log(`🌟 Nome: ${nome}`);
+console.log(`🔥 Classe: ${classe}`);
+console.log(`📈 Nível: ${nivel}`);
+console.log(`❤️ Vida: ${vidaAtual}`);
+console.log(`🪙 Ouro: ${ouroAtual}`);
+console.log(`🏅 XP: ${xp}`);
+console.log(`⚔️ Arma: ${NOME_ARMA}`);
+console.log(`💥 Dano Final: ${ataqueTotal}`);
+console.log(`⚔️ Defesa final: ${defesaTotal}`);
+console.log(`✨ Raridade: ${RARIDADE}`);
+console.log(`💀 Elemento: ${ELEMENTO}`);
+console.log("                       ");
+console.log(`Recapitulando...`);
+console.log(`O filho de ${nome} foi sequestrado! Antes de sair em busca de seu filho, ${nome} checa alguns itens que estava levando para a batalha e escolheu alguns Elfos para acompanhá-lo nessa nova jornada!`);
+console.log("                       ");
+
+// Itens do personagem organizados em arrays
+let inventário = ["Maçã de ouro", " Morango do Amor", " Sorvete de pistache", " Poção Boobie Goods", " Labubu", " Mapa"];
+let aliados = ["Elfo Akurou Nyerd", " Mago Viiktor Kriry", " Soldado Fieulype Diev"];
+let novosInimigos = ["Odegorn", " Guardiões de Odegorn", " Magos possuídos de Odegorn", " Bruxas de Odegorn"];
+let rastrosFrodo = [];
+
+// Exibição dos itens iniciais dos arrays
+console.log(`🎒 Esses foram os itens que foram levados no inventário: ${inventário}.`);
+console.log(`👨‍👨‍👦‍👦 Esses foram os personagens que foram em busca de ${nomeFilho}: ${aliados}.`);
+console.log(`🔰 Esses são os inimigos que o quarteto de ${localAtual} espera enfrentar: ${novosInimigos}.`);
+console.log(`👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`);
+console.log("                       ");
+
+let novoReinoInimigo = "Reino de Askaaek";
+
+console.log(`Ao saírem do ${localAtual}, começaram sua jornada até o ${novoReinoInimigo}!`);
