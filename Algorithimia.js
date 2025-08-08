@@ -36,7 +36,7 @@ console.log(`                       `);
 let vidaAtual = vida + 40;
 let ouroAtual = ouro - 300;
 console.log(
-  `"𝓔𝓶 𝓫𝓾𝓼𝓬𝓪 𝓭𝓮 𝓶𝓮𝓵𝓱𝓸𝓻𝓪𝓻 𝓼𝓾𝓪 𝓼𝓪𝓾𝓭𝓮 𝓹𝓪𝓻𝓪 𝓲𝓻 𝓮𝓶 𝓭𝓲𝓻𝓮𝓬𝓪𝓸 𝓪𝓸 𝓼𝓮𝓾 𝓻𝓮𝓲𝓷𝓸 𝓹𝓮𝓻𝓭𝓲𝓭𝓸, 𝓸 𝓻𝓮𝓲 𝓭𝓮𝓼𝓽𝓻𝓸𝓷𝓪𝓭𝓸 𝓬𝓸𝓶𝓹𝓻𝓪 𝓾𝓶𝓪 𝓹𝓸𝓬𝓪𝓸 𝓭𝓮 𝓸𝓾𝓻𝓸 𝓹𝓸𝓻 300 𝓶𝓸𝓮𝓭𝓪𝓼 𝓭𝓮 𝓸𝓾𝓻𝓸."`
+  `"𝓔𝓶 𝓫𝓾𝓼𝓬𝓪 𝓭𝓮 𝓶𝓮𝓵𝓱𝓸𝓻𝓪𝓻 𝓼𝓾𝓪 𝓼𝓪𝓾𝓭𝓮 𝓹𝓪𝓻𝓪 𝓲𝓻 𝓮𝓶 𝓭𝓲𝓻𝓮𝓬𝓪𝓸 𝓪𝓸 𝓼𝓮𝓾 𝓻𝓮𝓲𝓷𝓸 𝓹𝓮𝓻𝓭𝓲𝓭𝓸, 𝓸 𝓻𝓮𝓲 𝓭𝓮𝓼𝓽𝓻𝓸𝓷𝓪𝓭𝓸 𝓬𝓸𝓶𝓹𝓻𝓪 𝓾𝓶𝓪 𝓹𝓸𝓬𝓪𝓸 𝓭𝓮 𝓿𝓲𝓭𝓪 𝓹𝓸𝓻 300 𝓶𝓸𝓮𝓭𝓪𝓼 𝓭𝓮 𝓸𝓾𝓻𝓸."`
 );
 console.log(`Moedas atuais: ${ouroAtual}`);
 console.log(`Vida atual: ${vidaAtual}`);
@@ -62,19 +62,19 @@ let nivelAvancado = nivel >= 10;
 let podeEnfrentarOberon = vidaSuficiente && (ataqueForte || nivelAvancado);
 
 console.log(
-  `❤️ A vida de Aragorn é suficiente para enfrentar Obegon, o novo imperador dos elfos? ${vidaSuficiente}.`
+  `❤️ A vida de Aragorn é suficiente para enfrentar Oberon, o novo imperador dos elfos? ${vidaSuficiente}.`
 );
 console.log(
   `---------------------------------------------------------------------------------------------------------------------------------------------`
 );
 console.log(
-  `⚔️ O ataque de Aragorn é suficiente para enfrentar Obegon e seus guardiões? ${ataqueForte}.`
+  `⚔️ O ataque de Aragorn é suficiente para enfrentar Oberon e seus guardiões? ${ataqueForte}.`
 );
 console.log(
   `---------------------------------------------------------------------------------------------------------------------------------------------`
 );
 console.log(
-  `📈 O nível de Aragorn é suficiente para superar as bruxas de Obegon e libertar seu povo? ${nivelAvancado}.`
+  `📈 O nível de Aragorn é suficiente para superar as bruxas de Oberon e libertar seu povo? ${nivelAvancado}.`
 );
 console.log(
   `---------------------------------------------------------------------------------------------------------------------------------------------`
@@ -112,11 +112,11 @@ console.log(
   `𝓐𝓭𝓮𝓷𝓽𝓻𝓪𝓷𝓭𝓸 𝓶𝓪𝓲𝓼 𝓪𝓼 𝓷𝓸𝓿𝓪𝓼 𝓽𝓮𝓻𝓻𝓪𝓼 𝓼𝓸𝓶𝓫𝓻𝓲𝓪𝓼 𝓭𝓮 𝓼𝓮𝓾 𝓻𝓮𝓲𝓷𝓸 𝓹𝓮𝓻𝓭𝓲𝓭𝓸, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓮𝓷𝓬𝓸𝓷𝓽𝓻𝓪 𝓶𝓪𝓲𝓼 𝓭𝓮 15 𝓫𝓻𝓾𝔁𝓪𝓼 𝓺𝓾𝓮 𝓲𝓻𝓲𝓪𝓶 𝓯𝓪𝔃𝓮𝓻 𝓭𝓮 𝓽𝓾𝓭𝓸 𝓹𝓪𝓻𝓪 𝓹𝓪𝓻á-𝓵𝓸.`
 );
 console.log(
-  `𝓟𝓪𝓻𝓪 𝓭𝓮𝓻𝓻𝓸𝓽á-𝓵𝓪𝓼, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓾𝓽𝓲𝓵𝓲𝔃𝓪 𝓪 𝓱𝓪𝓫𝓲𝓵𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓼𝓾𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝓮 𝓻𝓮𝓬𝓾𝓹𝓮𝓻𝓪 𝓼𝓾𝓪 𝓿𝓲𝓭𝓪, 𝓰𝓪𝓷𝓱𝓪𝓷𝓭𝓸 𝓾𝓶 𝓫𝓸𝓸𝓼𝓽 𝓭𝓮 𝓮𝓷𝓮𝓻𝓰𝓲𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 ${(vidaGuardiao * quantidadeGuardioes * 0, 35) + vidaAtual
-  } 𝓹𝓸𝓷𝓽𝓸𝓼 𝓭𝓮 𝓿𝓲𝓭𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝔃𝓮𝓻𝓪𝓭𝓪. 𝓣𝓸𝓭𝓪𝓼 𝓯𝓸𝓻𝓪𝓶 𝓶𝓸𝓻𝓽𝓪𝓼 𝓹𝓸𝓻 ${Math.ceil(
-    (vidaGuardiao * quantidadeBruxas) / ataqueTotal
-  )} 𝓰𝓸𝓵𝓹𝓮𝓼.`
-);
+  `𝓟𝓪𝓻𝓪 𝓭𝓮𝓻𝓻𝓸𝓽á-𝓵𝓪𝓼, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓾𝓽𝓲𝓵𝓲𝔃𝓪 𝓪 𝓱𝓪𝓫𝓲𝓵𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓼𝓾𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝓮 𝓻𝓮𝓬𝓾𝓹𝓮𝓻𝓪 𝓼𝓾𝓪 𝓿𝓲𝓭𝓪, 𝓰𝓪𝓷𝓱𝓪𝓷𝓭𝓸 𝓾𝓶 𝓫𝓸𝓸𝓼𝓽 𝓭𝓮 𝓮𝓷𝓮𝓻𝓰𝓲𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 ${(vidaGuardiao * quantidadeGuardioes * 0, 35) + vidaAtual} 𝓹𝓸𝓷𝓽𝓸𝓼 𝓭𝓮 𝓿𝓲𝓭𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝔃𝓮𝓻𝓪𝓭𝓪. 𝓣𝓸𝓭𝓪𝓼 𝓯𝓸𝓻𝓪𝓶 𝓶𝓸𝓻𝓽𝓪𝓼 𝓹𝓸𝓻 ${Math.ceil(
+    (vidaBruxa * quantidadeBruxas) / ataqueTotal
+  )} 𝓰𝓸𝓵𝓹𝓮𝓼.`);
+vidaAtual = vidaAtual + (quantidadeGuardioes * 0, 35)
+defesaTotal = DEFESA_BASE * 0;
 console.log(
   `𝓢𝓾𝓫𝓲𝓷𝓭𝓸 𝓸𝓼 𝓪𝓵𝓹𝓮𝓼 𝓭𝓪𝓺𝓾𝓮𝓵𝓪𝓼 𝓽𝓮𝓻𝓻𝓪𝓼, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓮𝓷𝓬𝓸𝓷𝓽𝓻𝓸𝓾 𝓼𝓮𝓾 𝓶𝓪𝓲𝓸𝓻 𝓲𝓷𝓲𝓶𝓲𝓰𝓸: 𝓞𝓫𝓮𝓻𝓸𝓷. 𝓢𝓮𝓻á 𝓺𝓾𝓮 𝓸 𝓻𝓮𝓲 𝓛𝓮𝓰𝓸𝓵𝓪𝓼 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓻𝓮𝓬𝓾𝓹𝓮𝓻𝓪𝓻á 𝓼𝓮𝓾 𝓽𝓻𝓸𝓷𝓸 𝓼𝓮𝓶 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪𝓼 𝓭𝓮 𝓹𝓻𝓸𝓽𝓮çã𝓸?`
 );
@@ -149,6 +149,7 @@ console.log(`🪙 Ouro: ${ouroAtual}`);
 console.log(`🏅 XP: ${xp}`);
 console.log(`⚔️ Arma: ${NOME_ARMA}`);
 console.log(`💥 Dano Final: ${ataqueTotal}`);
+console.log(`⚔️ Defesa final: ${defesaTotal}`);
 console.log(`✨ Raridade: ${RARIDADE}`);
 console.log(`💀 Elemento: ${ELEMENTO}`);
 console.log("                       ");
@@ -160,12 +161,12 @@ console.log("-----------------------");
 let vidaMaxima = 100;
 ouro = 9700;
 xp = 300;
-let danoFinal = 30;
+let danoFinal = 170;
 let protecaoArmadura = 0;
 
 // Atributos novos para batalha
 
-let forca = 20;
+let forca = 80;
 let defesa = 0;
 let agilidade = 70;
 let combatesVencidos = 3;
@@ -277,7 +278,7 @@ let nomeLiderinimigo = "Tounis";
 let vidaTounis = 120;
 
 console.log(
-  `${nome} decide então enfrentar ${nomeLiderinimigo} em uma batalha!`
+  `${nome} decide então enfrentar ${nomeLiderinimigo} (líder do reino ${reinoInimigo}) em uma batalha pelo reino!`
 );
 console.log("                       ");
 
@@ -286,6 +287,7 @@ if (danoFinal >= vidaTounis) {
   console.log(
     `${nome} conseguiu matar ${nomeLiderinimigo} com um golpe e proteger o ${localAtual} do reino ${reinoInimigo}!!`
   );
+  combatesVencidos++;
 } else {
   console.log(
     `${nome} não conseguiu defender o ${localAtual} de ${nomeLiderinimigo} e seu reino ${reinoInimigo} e foi expulso de seu reino.`
@@ -297,7 +299,7 @@ console.log("                       ");
 console.log("Capítulo 3");
 console.log("                       ");
 
-console.log(`Agora, ${nome} deseja fazer uma reforma gigantesca no ${localAtual}, instalando muralhas, deixando as redondezas mais seguras!`);
+console.log(` 1- Agora, ${nome} deseja fazer uma reforma gigantesca no ${localAtual}, instalando muralhas, deixando as redondezas mais seguras!`);
 console.log(`Para isso, ${nome} precisa tomar algumas decisões de upgrades do reino baseadas nos seus atributos!`);
 console.log("                       ");
 
@@ -319,16 +321,33 @@ if (nivel > 10 && ouro > muralhas) {
 }
 console.log("                       ");
 
-nomeIrmaoOberon = "Odegorn";
+let nomeEsposa = "Ellina Luthien";
 
-console.log(`Durante uma noite sombria no ${localAtual}, um Goblin maldoso entrou no reio por de baixo das muralhas...`);
+console.log(` 2- Depois de algumas batalhas lendárias contra inimigos fortíssimos, ${nome} se viu PRECISANDO de uma namorada pra continuar sua jornada.`);
+console.log(`Entretanto, a mulher que ele tanto almejava era um taaaaanto quanto exigente...`);
+console.log(`Para conquistá-la, ${nome}, precisará conter alguns requisitos mínimos em seus novos atributos do nível 2.`);
+console.log(`A princesa das estrelas precisa de um namorado que tenha: Pelo menos 75 de força / Tenha pelo menos 60 de agilidade / E que tenha vencido pelo menos 2 combates épicos!`);
+console.log("                       ");
+console.log(`Estes são os atributos de ${nome}: força = ${forca} / agilidade = ${agilidade} / combates vencidos = ${combatesVencidos}`);
+console.log("                       ");
+
+// Verificação para saber se Legolas Aragorn possui os atributos necessários para conquistar sua nova donzela!
+if (forca >= 75 && agilidade >= 60 && combatesVencidos >= 2) {
+  console.log(`${nome} e ${nomeEsposa} se casaram e tiveram um filho nove meses depois da lua de mel.`);
+} else {
+  console.log(`${nomeEsposa} recusou o pedido de namoro!`)
+}
+  nomeIrmaoOberon = "Odegorn";
+
+console.log("                       ");
+console.log(`Durante uma noite sombria no ${localAtual}, um Goblin maldoso entrou no reino por de baixo das muralhas...`);
 console.log(`Esse Goblin sorrateiro foi adentrando o ${localAtual} e roubou o filho recém nascido de ${nome}!`);
 console.log(`Ao sair da casa de ${nome}, o Goblin maléfico deixou um bilhete para ${nome}, dizendo:  `);
 console.log(`"EU VIM VINGAR MEU IRMÃO! ME CHAMO ODEGORN, IRMÃO DE OBERON!`);
 console.log(`VENHA ME ENFRENTAR NO REINO PERDIDO DE ASKAAEK!"`);
 console.log(`Ao amanhacer, ${nome}, logo notou falta de algo... Seu único e amado filho!`);
 console.log(`Durante todo o dia, ${nome} proucurou incasavelmente por seu filho no ${localAtual}. Mas não obteve resultados.`);
-console.log(`Foi então que decidiu voltar para onde tudo começou... O quaro de seu filho.`);
+console.log(`Foi então que decidiu voltar para onde tudo começou... O quarto de seu filho.`);
 console.log(`Chegando lá, achou o bilhete deixado por ${nomeIrmaoOberon}, pegou seu mapa e decidiu sair em busca de seu filho primogênito.`);
 console.log("                       ");
 console.log("                       ");
