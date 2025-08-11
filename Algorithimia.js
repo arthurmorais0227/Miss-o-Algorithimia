@@ -112,10 +112,13 @@ console.log(
   `𝓐𝓭𝓮𝓷𝓽𝓻𝓪𝓷𝓭𝓸 𝓶𝓪𝓲𝓼 𝓪𝓼 𝓷𝓸𝓿𝓪𝓼 𝓽𝓮𝓻𝓻𝓪𝓼 𝓼𝓸𝓶𝓫𝓻𝓲𝓪𝓼 𝓭𝓮 𝓼𝓮𝓾 𝓻𝓮𝓲𝓷𝓸 𝓹𝓮𝓻𝓭𝓲𝓭𝓸, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓮𝓷𝓬𝓸𝓷𝓽𝓻𝓪 𝓶𝓪𝓲𝓼 𝓭𝓮 15 𝓫𝓻𝓾𝔁𝓪𝓼 𝓺𝓾𝓮 𝓲𝓻𝓲𝓪𝓶 𝓯𝓪𝔃𝓮𝓻 𝓭𝓮 𝓽𝓾𝓭𝓸 𝓹𝓪𝓻𝓪 𝓹𝓪𝓻á-𝓵𝓸.`
 );
 console.log(
-  `𝓟𝓪𝓻𝓪 𝓭𝓮𝓻𝓻𝓸𝓽á-𝓵𝓪𝓼, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓾𝓽𝓲𝓵𝓲𝔃𝓪 𝓪 𝓱𝓪𝓫𝓲𝓵𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓼𝓾𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝓮 𝓻𝓮𝓬𝓾𝓹𝓮𝓻𝓪 𝓼𝓾𝓪 𝓿𝓲𝓭𝓪, 𝓰𝓪𝓷𝓱𝓪𝓷𝓭𝓸 𝓾𝓶 𝓫𝓸𝓸𝓼𝓽 𝓭𝓮 𝓮𝓷𝓮𝓻𝓰𝓲𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 ${(vidaGuardiao * quantidadeGuardioes * 0, 35) + vidaAtual} 𝓹𝓸𝓷𝓽𝓸𝓼 𝓭𝓮 𝓿𝓲𝓭𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝔃𝓮𝓻𝓪𝓭𝓪. 𝓣𝓸𝓭𝓪𝓼 𝓯𝓸𝓻𝓪𝓶 𝓶𝓸𝓻𝓽𝓪𝓼 𝓹𝓸𝓻 ${Math.ceil(
+  `𝓟𝓪𝓻𝓪 𝓭𝓮𝓻𝓻𝓸𝓽á-𝓵𝓪𝓼, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓾𝓽𝓲𝓵𝓲𝔃𝓪 𝓪 𝓱𝓪𝓫𝓲𝓵𝓲𝓭𝓪𝓭𝓮 𝓭𝓮 𝓼𝓾𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝓮 𝓻𝓮𝓬𝓾𝓹𝓮𝓻𝓪 𝓼𝓾𝓪 𝓿𝓲𝓭𝓪, 𝓰𝓪𝓷𝓱𝓪𝓷𝓭𝓸 𝓾𝓶 𝓫𝓸𝓸𝓼𝓽 𝓭𝓮 𝓮𝓷𝓮𝓻𝓰𝓲𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 ${
+    (vidaGuardiao * quantidadeGuardioes * 0, 35) + vidaAtual
+  } 𝓹𝓸𝓷𝓽𝓸𝓼 𝓭𝓮 𝓿𝓲𝓭𝓪, 𝓯𝓲𝓬𝓪𝓷𝓭𝓸 𝓬𝓸𝓶 𝓪 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪 𝔃𝓮𝓻𝓪𝓭𝓪. 𝓣𝓸𝓭𝓪𝓼 𝓯𝓸𝓻𝓪𝓶 𝓶𝓸𝓻𝓽𝓪𝓼 𝓹𝓸𝓻 ${Math.ceil(
     (vidaBruxa * quantidadeBruxas) / ataqueTotal
-  )} 𝓰𝓸𝓵𝓹𝓮𝓼.`);
-vidaAtual = vidaAtual + (quantidadeGuardioes * 0, 35)
+  )} 𝓰𝓸𝓵𝓹𝓮𝓼.`
+);
+vidaAtual = vidaAtual + (quantidadeGuardioes * 0, 35);
 defesaTotal = DEFESA_BASE * 0;
 console.log(
   `𝓢𝓾𝓫𝓲𝓷𝓭𝓸 𝓸𝓼 𝓪𝓵𝓹𝓮𝓼 𝓭𝓪𝓺𝓾𝓮𝓵𝓪𝓼 𝓽𝓮𝓻𝓻𝓪𝓼, 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓮𝓷𝓬𝓸𝓷𝓽𝓻𝓸𝓾 𝓼𝓮𝓾 𝓶𝓪𝓲𝓸𝓻 𝓲𝓷𝓲𝓶𝓲𝓰𝓸: 𝓞𝓫𝓮𝓻𝓸𝓷. 𝓢𝓮𝓻á 𝓺𝓾𝓮 𝓸 𝓻𝓮𝓲 𝓛𝓮𝓰𝓸𝓵𝓪𝓼 𝓐𝓻𝓪𝓰𝓸𝓻𝓷 𝓻𝓮𝓬𝓾𝓹𝓮𝓻𝓪𝓻á 𝓼𝓮𝓾 𝓽𝓻𝓸𝓷𝓸 𝓼𝓮𝓶 𝓪𝓻𝓶𝓪𝓭𝓾𝓻𝓪𝓼 𝓭𝓮 𝓹𝓻𝓸𝓽𝓮çã𝓸?`
@@ -299,23 +302,33 @@ console.log("                       ");
 console.log("Capítulo 3");
 console.log("                       ");
 
-console.log(` 1- Agora, ${nome} deseja fazer uma reforma gigantesca no ${localAtual}, instalando muralhas, deixando as redondezas mais seguras!`);
-console.log(`Para isso, ${nome} precisa tomar algumas decisões de upgrades do reino baseadas nos seus atributos!`);
+console.log(
+  ` 1- Agora, ${nome} deseja fazer uma reforma gigantesca no ${localAtual}, instalando muralhas, deixando as redondezas mais seguras!`
+);
+console.log(
+  `Para isso, ${nome} precisa tomar algumas decisões de upgrades do reino baseadas nos seus atributos!`
+);
 console.log("                       ");
 
 let muralhas = 3000;
 
-// Caso seu ouro seja maior do que o preço das muralhas e o personagem tiver mais de 10 de nível, poderá comprar as muralhas para proteger o reino. 
+// Caso seu ouro seja maior do que o preço das muralhas e o personagem tiver mais de 10 de nível, poderá comprar as muralhas para proteger o reino.
 // Se o personagem possuir o ouro necessário, mas não tiver mais de 10 de nível, não poderá instalar novas muralhase precisará treinar mais para subir seu nível.
 // Se o personagem tiver mais de 10 de nível mas não possuir o ouro suficiente, não conseguirá instalar as novas muralhas e precisará exportar mais madeiras para ganhar mais ouro.
 // Se o personagem não tiver nem ouro suficiente e nem nível para instalar as novas muralhas, precisará treinar mais e exportar mais madeira, para respectivamente, subir seu nível e ganhar mais ouro.
 if (nivel > 10 && ouro > muralhas) {
-  console.log("Todas as reformas foram feitas com sucesso e o reino está mais protegido!");
+  console.log(
+    "Todas as reformas foram feitas com sucesso e o reino está mais protegido!"
+  );
   ouro -= muralhas;
 } else if (nivel <= 10 && ouro > muralhas) {
-  console.log(`${nome} possui o dinheiro necessário para comprar muralhas, mas não possui o nível necessário! Treine mais!`);
+  console.log(
+    `${nome} possui o dinheiro necessário para comprar muralhas, mas não possui o nível necessário! Treine mais!`
+  );
 } else if (nivel > 10 && ouro < muralhas) {
-  console.log(`${nome} possui o nível necessário, mas não tem ouro suficiente!`);
+  console.log(
+    `${nome} possui o nível necessário, mas não tem ouro suficiente!`
+  );
 } else {
   console.log(`Treine mais e ganhe mais ouro!!`);
 }
@@ -323,37 +336,65 @@ console.log("                       ");
 
 let nomeEsposa = "Ellina Luthien";
 
-console.log(` 2- Depois de algumas batalhas lendárias contra inimigos fortíssimos, ${nome} se viu PRECISANDO de uma namorada pra continuar sua jornada.`);
-console.log(`Entretanto, a mulher que ele tanto almejava era um taaaaanto quanto exigente...`);
-console.log(`Para conquistá-la, ${nome}, precisará conter alguns requisitos mínimos em seus novos atributos do nível 2.`);
-console.log(`A princesa das estrelas precisa de um namorado que tenha: Pelo menos 75 de força / Tenha pelo menos 60 de agilidade / E que tenha vencido pelo menos 2 combates épicos!`);
+console.log(
+  ` 2- Depois de algumas batalhas lendárias contra inimigos fortíssimos, ${nome} se viu PRECISANDO de uma namorada pra continuar sua jornada.`
+);
+console.log(
+  `Entretanto, a mulher que ele tanto almejava era um taaaaanto quanto exigente...`
+);
+console.log(
+  `Para conquistá-la, ${nome}, precisará conter alguns requisitos mínimos em seus novos atributos do nível 2.`
+);
+console.log(
+  `A princesa das estrelas precisa de um namorado que tenha: Pelo menos 75 de força / Tenha pelo menos 60 de agilidade / E que tenha vencido pelo menos 2 combates épicos!`
+);
 console.log("                       ");
-console.log(`Estes são os atributos de ${nome}: força = ${forca} / agilidade = ${agilidade} / combates vencidos = ${combatesVencidos}`);
+console.log(
+  `Estes são os atributos de ${nome}: força = ${forca} / agilidade = ${agilidade} / combates vencidos = ${combatesVencidos}`
+);
 console.log("                       ");
 
 let nomeFilho = "Frodo Sauron";
 
 // Verificação para saber se Legolas Aragorn possui os atributos necessários para conquistar sua nova donzela!
 if (forca >= 75 && agilidade >= 60 && combatesVencidos >= 2) {
-  console.log(`${nome} e ${nomeEsposa} se casaram e tiveram um filho nove meses depois da lua de mel.`);
+  console.log(
+    `${nome} e ${nomeEsposa} se casaram e tiveram um filho nove meses depois da lua de mel.`
+  );
 } else {
   console.log(`${nomeEsposa} recusou o pedido de namoro!`);
 }
 nomeIrmaoOberon = "Odegorn";
 
 console.log("                       ");
-console.log(`Durante uma noite sombria no ${localAtual}, um Goblin maldoso entrou no reino por de baixo das muralhas...`);
-console.log(`Esse Goblin sorrateiro foi adentrando o ${localAtual} e roubou o filho recém nascido de ${nome}!`);
-console.log(`Ao sair da casa de ${nome}, o Goblin maléfico deixou um bilhete para ${nome}, dizendo:  `);
+console.log(
+  `Durante uma noite sombria no ${localAtual}, um Goblin maldoso entrou no reino por de baixo das muralhas...`
+);
+console.log(
+  `Esse Goblin sorrateiro foi adentrando o ${localAtual} e roubou o filho recém nascido de ${nome}!`
+);
+console.log(
+  `Ao sair da casa de ${nome}, o Goblin maléfico deixou um bilhete para ${nome}, dizendo:  `
+);
 console.log(`"EU VIM VINGAR MEU IRMÃO! ME CHAMO ODEGORN, IRMÃO DE OBERON!`);
 console.log(`VENHA ME ENFRENTAR NO REINO PERDIDO DE ASKAAEK!"`);
-console.log(`Ao amanhacer, ${nome}, logo notou falta de algo... Seu único e amado filho!`);
-console.log(`Durante todo o dia, ${nome} proucurou incasavelmente por seu filho no ${localAtual}. Mas não obteve resultados.`);
-console.log(`Foi então que decidiu voltar para onde tudo começou... O quarto de ${nomeFilho}!`);
-console.log(`Chegando lá, achou o bilhete deixado por ${nomeIrmaoOberon}, pegou seu mapa e decidiu sair em busca de seu filho primogênito.`);
+console.log(
+  `Ao amanhacer, ${nome}, logo notou falta de algo... Seu único e amado filho!`
+);
+console.log(
+  `Durante todo o dia, ${nome} proucurou incasavelmente por seu filho no ${localAtual}. Mas não obteve resultados.`
+);
+console.log(
+  `Foi então que decidiu voltar para onde tudo começou... O quarto de ${nomeFilho}!`
+);
+console.log(
+  `Chegando lá, achou o bilhete deixado por ${nomeIrmaoOberon}, pegou seu mapa e decidiu sair em busca de seu filho primogênito.`
+);
 console.log("                       ");
 console.log("                       ");
-console.log(`Acompanhe a próxima jornada de ${nome} no próximo nível (Avançado!)`);
+console.log(
+  `Acompanhe a próxima jornada de ${nome} no próximo nível (Avançado!)`
+);
 
 console.log("                       ");
 console.log("                       ");
@@ -383,20 +424,46 @@ console.log("                       ");
 console.log(`Capítulo 1`);
 console.log("                       ");
 
-console.log(`O filho de ${nome} foi sequestrado! Antes de sair em busca de seu filho, ${nome} checa alguns itens que estava levando para a batalha e escolheu alguns Elfos para acompanhá-lo nessa nova jornada!`);
+console.log(
+  `O filho de ${nome} foi sequestrado! Antes de sair em busca de seu filho, ${nome} checa alguns itens que estava levando para a batalha e escolheu alguns Elfos para acompanhá-lo nessa nova jornada!`
+);
 console.log("                       ");
 
 // Itens do personagem organizados em arrays
-let inventário = ["Maçã de ouro", " Morango do Amor", " Sorvete de pistache", " Poção Boobie Goods", " Mapa", " Poção Labubu",];
-let aliados = ["Elfo Akurou Nyerd", " Mago Viiktor Kriry", " Soldado Fieulype Diev"];
-let novosInimigos = ["Odegorn", " Soldados de Odegorn", " Magos possuídos de Odegorn", " Bruxas de Odegorn"];
+let inventário = [
+  "Maçã de ouro",
+  " Morango do Amor",
+  " Sorvete de pistache",
+  " Poção Boobie Goods",
+  " Mapa",
+  " Poção Labubu",
+];
+let aliados = [
+  "Elfo Akurou Nyerd",
+  " Mago Viiktor Kriry",
+  " Soldado Fieulype Diev",
+];
+let novosInimigos = [
+  "Odegorn",
+  " Magos possuídos de Odegorn",
+  " Bruxas de Odegorn",
+  " Soldados de Odegorn"
+];
 let rastrosFrodo = [];
 
 // Exibição dos itens iniciais dos arrays
-console.log(`🎒 Esses foram os itens que foram levados no inventário: ${inventário}.`);
-console.log(`👨‍👨‍👦‍👦 Esses foram os personagens que foram em busca de ${nomeFilho}: ${aliados}.`);
-console.log(`🔰 Esses são os inimigos que o quarteto de ${localAtual} espera enfrentar: ${novosInimigos}.`);
-console.log(`👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`);
+console.log(
+  `🎒 Esses foram os itens que foram levados no inventário: ${inventário}.`
+);
+console.log(
+  `👨‍👨‍👦‍👦 Esses foram os personagens que foram em busca de ${nomeFilho}: ${aliados}.`
+);
+console.log(
+  `🔰 Esses são os inimigos que o quarteto de ${localAtual} espera enfrentar: ${novosInimigos}.`
+);
+console.log(
+  `👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`
+);
 console.log("                       ");
 
 // Capítulo 2
@@ -406,18 +473,30 @@ console.log("                       ");
 let novoReinoInimigo = "Reino de Askaaek";
 let localDesejado = "Castelo dos Arrays";
 
-console.log(`Ao saírem do ${localAtual}, começaram sua jornada até o ${localDesejado} no ${novoReinoInimigo}!`);
-console.log(`Durante 2 dias de caminhada, não acharam nenhuma pista interessante...`);
-console.log(`Entretanto, ao chegarem mais perto do ${novoReinoInimigo}, encontraram algumas pegadas de ${nome}!`);
+console.log(
+  `Ao saírem do ${localAtual}, começaram sua jornada até o ${localDesejado} no ${novoReinoInimigo}!`
+);
+console.log(
+  `Durante 2 dias de caminhada, não acharam nenhuma pista interessante...`
+);
+console.log(
+  `Entretanto, ao chegarem mais perto do ${novoReinoInimigo}, encontraram algumas pegadas de ${nome}!`
+);
 
-// Nova atualização nos rastros de Frodo! 
+// Nova atualização nos rastros de Frodo!
 rastrosFrodo.push(`Pegadas`);
 
-console.log(`👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`);
+console.log(
+  `👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`
+);
 console.log("                       ");
-console.log(`Chegando mais perto do ${novoReinoInimigo}, encontraram um grande problema para atravessar uma ponte!`);
+console.log(
+  `Chegando mais perto do ${novoReinoInimigo}, encontraram um grande problema para atravessar uma ponte!`
+);
 console.log(`Então, decidiram usar o item: ${inventário[5]}.`);
-console.log(`Esse item tem o poder de gerar levitação! Eles jogam a poção no chão perto dos 4 aventureiros e começaram a flutuar! Assim, atravessando a ponte!`);
+console.log(
+  `Esse item tem o poder de gerar levitação! Eles jogam a poção no chão perto dos 4 aventureiros e começaram a flutuar! Assim, atravessando a ponte!`
+);
 xp += 100;
 
 // Remoção do item já utilizado
@@ -426,10 +505,14 @@ console.log(`🎒 Esses foram os itens restantes no iventário: ${inventário}.`
 console.log("                       ");
 console.log(`Enfim haviam chegado ao ${novoReinoInimigo}!`);
 
-console.log(`Entretanto, para adentrarem ${localDesejado}, precisariam passar por uma checagem de pessoas!`);
+console.log(
+  `Entretanto, para adentrarem ${localDesejado}, precisariam passar por uma checagem de pessoas!`
+);
 console.log(`O portão do castelo diz: Apenas 3 pessoas do mesmo reino!`);
 
-console.log(`Então, o último escolhido para a jornada deveria ficar para fora e esperar a volta de seus companheiros.`);
+console.log(
+  `Então, o último escolhido para a jornada deveria ficar para fora e esperar a volta de seus companheiros.`
+);
 console.log(`Esse aliado era: ${aliados[aliados.length - 1]}.`);
 aliados.pop(aliados);
 console.log(`👨‍👨‍👦‍👦 Aliados restantes: ${aliados}.`);
@@ -438,7 +521,9 @@ console.log("                       ");
 console.log(`Capítulo 3`);
 console.log("                       ");
 
-console.log(`Ao chegarem nas portas do castelo, teriam de enfrentar 10 ${novosInimigos[1]}!`);
+console.log(
+  `Ao chegarem nas portas do castelo, teriam de enfrentar 10 ${novosInimigos[1]}!`
+);
 
 let quantidadeSoldados = 10;
 let vidaSoldado = 50;
@@ -448,23 +533,75 @@ let somaAtaques = 0;
 let contador = 0;
 let limiteGolpes = 5;
 
-console.log(`${nome}, ${aliados} foram para a batalha! Cada soldado Possuía ${vidaSoldado} de vida. ${aliados[0]} dá ${danoAkurou} de dano e ${aliados[1]} dá ${danoViiktor} de dano!`);
+console.log(
+  `${nome}, ${aliados} foram para a batalha! Cada soldado Possuía ${vidaSoldado} de vida. ${aliados[0]} dá ${danoAkurou} de dano e ${aliados[1]} dá ${danoViiktor} de dano!`
+);
 console.log(`Mas para isso, poderiam dar no máximo ${limiteGolpes} golpes.`);
 console.log("                       ");
 
 // Loop que vê quantos golpes os personagens precisam dar juntos para vencer os soldados! Se for maior que 5 golpes, perderam a batalha!
-for (let i = (danoAkurou + danoViiktor + danoFinal); i < (quantidadeSoldados * vidaSoldado); i += 70) {
+for (
+  let i = danoAkurou + danoViiktor + danoFinal;
+  i < quantidadeSoldados * vidaSoldado;
+  i += 70
+) {
   somaAtaques = somaAtaques + i;
   contador++;
 }
 
 if (contador <= 5) {
-  console.log(`${nome}, ${aliados} conseguiram derrotar os ${novosInimigos[1]}!`);
-  console.log(`Precisaram dar ${contador} ataques juntos para conquistar a vitória!`);
+  console.log(
+    `${nome}, ${aliados} conseguiram derrotar os ${novosInimigos[1]}!`
+  );
+  console.log(
+    `Precisaram dar ${contador} ataques juntos para conquistar a vitória!`
+  );
   combatesVencidos++;
+  novosInimigos.pop(novosInimigos)
 } else {
-  console.log(`${nome}, ${aliados} NÃO conseguiram derrotar os ${novosInimigos[1]}!`);
+  console.log(
+    `${nome}, ${aliados} NÃO conseguiram derrotar os ${novosInimigos[1]}!`
+  );
   console.log(`${nome} como líder da missão perde 50 pontos de vida!`);
   vidaAtual -= 50;
   console.log(`Vida atual: ${vidaAtual}.`);
+}
+
+console.log("                       ");
+console.log(
+  `Continuaram para as entranhas do castelo! Mas antes de entrar, teriam de se apresentar!`
+);
+console.log("                       ");
+
+for (let i = 0; i < aliados.length; i++) {
+  if (i === 0) {
+    console.log(
+      `Esse é ${aliados[0]}. Tem poderes mágicos e poções secretas! 😵‍💫`
+    );
+  } else {
+    console.log(
+      `Esse é ${aliados[1]}. Tem poderes de força, geração de feitiços e manas secretas`
+    );
+  }
+}
+
+console.log("                       ");
+console.log(`Aliados apresentados! Rumo a batalha final!`);
+console.log("                       ");
+
+
+let vidaOdegorn = 100;
+danoAkurou =  Math.floor(Math.random() * (100 - 50 + 1) + 50);
+let vidaViiktor = 80;
+danoViiktor = Math.floor(Math.random() * (100 - 50 + 1) + 50);
+let vidaBruxas = 100;
+let vidaMagos = 100;
+
+console.log(`Adentrando mais um pouco o ${localDesejado}, encontraram os seguintes inimigos: ${novosInimigos}!`);
+console.log(`Que comece a batalha lendária!`);
+
+let contador2 = 0;
+
+for (i = (danoAkurou + danoFinal + danoViiktor); i < (vidaOdegorn + vidaBruxas + vidaMagos);  i++) {
+  let somaAtaques2 = somaAtaques2 + i;
 }
