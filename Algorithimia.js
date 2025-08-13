@@ -447,7 +447,7 @@ let novosInimigos = [
   "Odegorn",
   " Magos possuídos de Odegorn",
   " Bruxas de Odegorn",
-  " Soldados de Odegorn"
+  " Soldados de Odegorn",
 ];
 let rastrosFrodo = [];
 
@@ -526,7 +526,7 @@ console.log(
 );
 
 let quantidadeSoldados = 10;
-let vidaSoldado = 50;
+let vidaSoldado = 100;
 let danoViiktor = 50;
 let danoAkurou = 70;
 let somaAtaques = 0;
@@ -543,12 +543,13 @@ console.log("                       ");
 for (
   let i = danoAkurou + danoViiktor + danoFinal;
   i < quantidadeSoldados * vidaSoldado;
-  i += 70
+  i += danoAkurou + danoFinal + danoViiktor
 ) {
   somaAtaques = somaAtaques + i;
   contador++;
 }
 
+// If que checa se conseguiram derrotar os vilões em menos das rodadsa necessárias!
 if (contador <= 5) {
   console.log(
     `${nome}, ${aliados} conseguiram derrotar os ${novosInimigos[1]}!`
@@ -557,7 +558,7 @@ if (contador <= 5) {
     `Precisaram dar ${contador} ataques juntos para conquistar a vitória!`
   );
   combatesVencidos++;
-  novosInimigos.pop(novosInimigos)
+  novosInimigos.pop(novosInimigos);
 } else {
   console.log(
     `${nome}, ${aliados} NÃO conseguiram derrotar os ${novosInimigos[1]}!`
@@ -573,6 +574,7 @@ console.log(
 );
 console.log("                       ");
 
+// For que chama apresenta os aliados de Legolas para a batalha final!
 for (let i = 0; i < aliados.length; i++) {
   if (i === 0) {
     console.log(
@@ -580,7 +582,7 @@ for (let i = 0; i < aliados.length; i++) {
     );
   } else {
     console.log(
-      `Esse é ${aliados[1]}. Tem poderes de força, geração de feitiços e manas secretas`
+      `Esse é ${aliados[1]}. Tem poderes de força, geração de feitiços e manas secretas 😎`
     );
   }
 }
@@ -589,19 +591,55 @@ console.log("                       ");
 console.log(`Aliados apresentados! Rumo a batalha final!`);
 console.log("                       ");
 
-
-let vidaOdegorn = 100;
-danoAkurou =  Math.floor(Math.random() * (100 - 50 + 1) + 50);
+let vidaOdegorn = 250;
+danoAkurou = Math.floor(Math.random() * (40 - 5 + 1) + 5);
 let vidaViiktor = 80;
-danoViiktor = Math.floor(Math.random() * (100 - 50 + 1) + 50);
-let vidaBruxas = 100;
-let vidaMagos = 100;
+danoViiktor = Math.floor(Math.random() * (70 - 20 + 1) + 20);
+let vidaBruxas = 500;
+let vidaMagos = 300;
 
-console.log(`Adentrando mais um pouco o ${localDesejado}, encontraram os seguintes inimigos: ${novosInimigos}!`);
+console.log(
+  `Adentrando mais um pouco o ${localDesejado}, encontraram os seguintes inimigos: ${novosInimigos}! e mais uma pista de ${nomeFilho}! Um tucho de cabelo!`
+);
+rastrosFrodo.push(`Tucho de cabelo`);
+console.log(
+  `👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`
+);
+
+console.log("                       ");
+console.log(
+  `OOOPSS, antes da batalha começar, um feitiço das bruxas foi jogado! Esse feitiço gera um dano aleatório nas armas de nossos guerreiros!`
+);
+console.log(
+  `${nomeIrmaoOberon} aparece em uma das escadas do ${localDesejado} e revela que ${nomeFilho} está com ele!`
+);
+
+let rodadasFinais = Math.floor(Math.random() * (10 - 1 + 1) + 1);
+console.log(
+  `Entretanto, para conseguirem resgatar ${nomeFilho}, teriam de derrotar ${novosInimigos} com no máximo ${rodadasFinais} rodadas!`
+);
+console.log();
 console.log(`Que comece a batalha lendária!`);
+console.log("                       ");
 
 let contador2 = 0;
+let vidaInimigos = vidaBruxas + vidaMagos + vidaOdegorn;
+ 
+let danoAcumulado = 0; 
 
-for (i = (danoAkurou + danoFinal + danoViiktor); i < (vidaOdegorn + vidaBruxas + vidaMagos);  i++) {
-  let somaAtaques2 = somaAtaques2 + i;
+for (let danoTurno = danoAkurou + danoFinal + danoViiktor; danoAcumulado < vidaInimigos; danoAcumulado += danoTurno) {
+    contador2++;
+    let vidaRestante = vidaInimigos - (danoAcumulado + danoTurno);
+    if (vidaRestante < 0); 
+    console.log(`Rodada ${contador2}: causou ${danoTurno} de dano. Dano total: ${danoAcumulado + danoTurno}. Vida restante dos inimigos: ${vidaRestante}`);
 }
+
+if (contador2 > rodadasFinais) {
+    console.log(`Os guerreiros perderam! Como punição, ficam sem ${nomeFilho} e ${nome} perde 50 de vida!`);
+    vidaAtual -= 50; 
+} else {
+    console.log(`Os guerreiros ganharam com ${contador2} golpes!`);
+    console.log(`Ficaram a ${rodadasFinais - contador2} rodadas de perder!`);
+    combatesVencidos++;
+}
+
