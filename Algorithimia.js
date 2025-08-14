@@ -430,12 +430,12 @@ console.log(
 console.log("                       ");
 
 // Itens do personagem organizados em arrays
-let inventário = [
+let inventario = [
   "Maçã de ouro",
   " Morango do Amor",
   " Sorvete de pistache",
-  " Poção Boobie Goods",
   " Mapa",
+  "Poção Boobie Goods",
   " Poção Labubu",
 ];
 let aliados = [
@@ -453,7 +453,7 @@ let rastrosFrodo = [];
 
 // Exibição dos itens iniciais dos arrays
 console.log(
-  `🎒 Esses foram os itens que foram levados no inventário: ${inventário}.`
+  `🎒 Esses foram os itens que foram levados no inventario: ${inventario}.`
 );
 console.log(
   `👨‍👨‍👦‍👦 Esses foram os personagens que foram em busca de ${nomeFilho}: ${aliados}.`
@@ -493,15 +493,15 @@ console.log("                       ");
 console.log(
   `Chegando mais perto do ${novoReinoInimigo}, encontraram um grande problema para atravessar uma ponte!`
 );
-console.log(`Então, decidiram usar o item: ${inventário[5]}.`);
+console.log(`Então, decidiram usar o item: ${inventario[5]}.`);
 console.log(
   `Esse item tem o poder de gerar levitação! Eles jogam a poção no chão perto dos 4 aventureiros e começaram a flutuar! Assim, atravessando a ponte!`
 );
 xp += 100;
 
 // Remoção do item já utilizado
-inventário.pop(inventário);
-console.log(`🎒 Esses foram os itens restantes no iventário: ${inventário}.`);
+inventario.pop(inventario);
+console.log(`🎒 Esses foram os itens restantes no iventário: ${inventario}.`);
 console.log("                       ");
 console.log(`Enfim haviam chegado ao ${novoReinoInimigo}!`);
 
@@ -624,22 +624,105 @@ console.log("                       ");
 
 let contador2 = 0;
 let vidaInimigos = vidaBruxas + vidaMagos + vidaOdegorn;
- 
-let danoAcumulado = 0; 
 
-for (let danoTurno = danoAkurou + danoFinal + danoViiktor; danoAcumulado < vidaInimigos; danoAcumulado += danoTurno) {
-    contador2++;
-    let vidaRestante = vidaInimigos - (danoAcumulado + danoTurno);
-    if (vidaRestante < 0); 
-    console.log(`Rodada ${contador2}: causou ${danoTurno} de dano. Dano total: ${danoAcumulado + danoTurno}. Vida restante dos inimigos: ${vidaRestante}`);
+let danoAcumulado = 0;
+
+for (
+  let danoTurno = danoAkurou + danoFinal + danoViiktor;
+  danoAcumulado < vidaInimigos;
+  danoAcumulado += danoTurno
+) {
+  contador2++;
+  let vidaRestante = vidaInimigos - (danoAcumulado + danoTurno);
+  if (vidaRestante < 0);
+  console.log(
+    `Rodada ${contador2}: causaram ${danoTurno} de dano. Dano total: ${
+      danoAcumulado + danoTurno
+    }. Vida restante dos inimigos: ${vidaRestante}`
+  );
 }
+console.log("                       ");
 
 if (contador2 > rodadasFinais) {
-    console.log(`Os guerreiros perderam! Como punição, ficam sem ${nomeFilho} e ${nome} perde 50 de vida!`);
-    vidaAtual -= 50; 
+  console.log(
+    `Os guerreiros perderam! Como punição, ficam sem ${nomeFilho} e ${nome} perde 50 de vida!`
+  );
+  vidaAtual -= 50;
 } else {
-    console.log(`Os guerreiros ganharam com ${contador2} golpes!`);
-    console.log(`Ficaram a ${rodadasFinais - contador2} rodadas de perder!`);
-    combatesVencidos++;
+  console.log(`Os guerreiros ganharam com ${contador2} golpes!`);
+  console.log(`Ficaram a ${rodadasFinais - contador2} rodadas de perder!`);
+  combatesVencidos++;
+  novosInimigos.pop();
+  novosInimigos.pop();
+  novosInimigos.pop();
+  console.log(`Inimigos restantes: ${novosInimigos}`);
 }
+console.log("                       ");
 
+console.log(
+  `Ao saírem do ${localDesejado}, precisaram usar uma poção para abrir os portões que estavam trancados. Essa poção era: "${inventario[3]}" e causava uma explosão!`
+);
+inventario.pop();
+console.log(`🎒 Esses foram os itens restantes no iventário: ${inventario}.`);
+console.log("                       ");
+console.log(
+  `Ao saírem do ${localDesejado}, reencontraram um antigo aliado: Fieulype Diev!`
+);
+aliados.push(` Fieulype Diev`);
+console.log(`👨‍👨‍👦‍👦 Aliados restantes: ${aliados}.`);
+console.log("                       ");
+
+console.log(`Epílogo`);
+console.log("                       ");
+console.log(
+  `Saindo do ${localDesejado}, seguiram em direção ao ${localAtual}!`
+);
+console.log(
+  `Durante o caminho, encontraram alguns desafios, como fome, frio e calor`
+);
+console.log(
+  `Para resolverem esses problemas, usaram os itens restantes do inventario: ${inventario}`
+);
+inventario.pop();
+inventario.pop();
+inventario.pop();
+inventario.pop();
+console.log(`🎒 Esses foram os itens restantes no iventário: ${inventario}`);
+console.log(
+  `A experiência daquele local amaldiçoado havia os deixado mais forte para voltarem para casa.`
+);
+console.log(`Ao chegaram em casa, muitos perguntaram se o objetivo havia sido concluído...`);
+console.log(`E sim, eles haviam conseguido resgatar ${nomeFilho}!`);
+console.log(`A mulher de ${nome}, ${nomeEsposa}, ficou muito feliz!`);
+console.log(`Entretanto, algo em ${nome} estava diferente...`);
+console.log(`Ele parecia estar traumatizado, até um tanto quanto eufórico...`);
+console.log(`${nome} estava mais poderoso... Um poder do bem? já não se sabe...`);
+console.log(`Mas algo estava completamente diferente...`);
+console.log("                       ");
+console.log(`DADOS FINAIS DO PERSONAGEM`);
+console.log("                       ");
+console.log(
+  `🎒 Esses foram os itens que foram levados no inventario: ${inventario}.`
+);
+console.log(
+  `👨‍👨‍👦‍👦 Esses foram os personagens que foram em busca de ${nomeFilho}: ${aliados}.`
+);
+console.log(
+  `🔰 Esses são os inimigos que o quarteto de ${localAtual} espera enfrentar: ${novosInimigos}.`
+);
+console.log(
+  `👣 Esses foram os rastros encontrados de ${nomeFilho} até o momento: ${rastrosFrodo}.`
+);
+console.log(`🌟 Nome: ${nome}`);
+console.log(`🔥 Classe: ${classe}`);
+console.log(`📈 Nível: ${nivel}`);
+console.log(`❤️ Vida: ${vida}`);
+console.log(`🪙 Ouro: ${ouro}`);
+console.log(`🏅 XP: ${xp}`);
+console.log(`⚔️ Arma: ${NOME_ARMA}`);
+console.log(`💥 Dano Base: ${DANO_BASE}`);
+console.log(`💥 Nome da armadura: ${NOME_ARMADURA}`);
+console.log(`🛡 Defesa Base: ${DEFESA_BASE}`);
+console.log(`✨ Raridade: ${RARIDADE}`);
+console.log(`💀 Elemento: ${ELEMENTO}`);
+console.log(`                       `);
